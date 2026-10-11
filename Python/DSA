@@ -1,1 +1,10 @@
-
+# Leetcode #9
+# Palindrome Number
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        num,l=x,0
+        while num>0:
+            m=num%10
+            l=(l*10)+m
+            num=num//10
+        return l==x
