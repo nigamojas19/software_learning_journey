@@ -19,4 +19,6 @@ class Solution:
                     n+=i
                 else:
                     n=n+i+(num/i)
-        return n-num==num            
+        return n-num==num    
+
+# frequency map
